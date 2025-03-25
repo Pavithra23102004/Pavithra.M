@@ -1,0 +1,84 @@
+#clear_button{
+  margin-left: 15px;
+  font-weight: bold;
+  color: rgb(7, 229, 233);
+}
+#confidence{
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 7.5%;
+}
+#content{
+  margin: 0 auto;
+  padding: 2% 15%;
+  padding-bottom: 0;
+}
+.welcome{
+   text-align: center;
+   position: relative;
+   color: rgb(28, 208, 232);
+   background-color:rgb(233, 232, 239);
+   padding-top: 1%;
+   padding-bottom: 1%;
+   font-weight: bold;
+   font-family: 'Prompt', sans-serif;  
+}
+#predict_button{
+  margin-right: 15px;
+  color: rgb(44, 194, 228);
+  font-weight: bold;
+}
+#prediction_heading{
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 7.5%;
+}
+#result{
+  font-family: 'Pacifico', cursive;
+  font-size: 5rem;
+}
+#title{
+  padding: 1.5% 15%;
+  margin: 0 auto;
+  text-align: center;
+}
+.btn {
+    font-size: 15px;
+    padding: 10px;
+    -webkit-appearance: none;
+    background: #180b13;
+    border: 1px solid #f2eaef;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.buttons_div{
+  margin-bottom: 30px;
+}
+.heading{
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  display: inline;
+}
+.leftside{
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 4%;
+}
+.predicted_answer{
+  text-align: center;
+  margin: 0 auto;
+  padding: 3% 5%;
+  padding-top: 0;
+}
+.responsive_img{
+  width: 75%;
+    height: 10vw;
+    object-fit: cover;
+}
+a:active {
+  color: rgb(21, 19, 19);
+  text-decoration: none;
+}
+p{
+  font-family: 'Source Code Pro', monospace,sans-serif;
+  margin-top: 1%;
+}

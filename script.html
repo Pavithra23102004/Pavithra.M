@@ -1,0 +1,37 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/b3aed9cb07.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+</head>
+<body onload="init()">
+  <h1 class="welcome"DIGIT DREAMER</h1>
+  <section id="title">
+    <h1 class="heading">Handwritten Digit Recognition</h1>
+  </section>
+  <section id="content">
+    <div id="sketchpadapp">
+      <div class="row">
+        <div class="leftside">
+          <div class="">
+            <canvas id="sketchpad" height="200" width="200">
+            </canvas>
+          </div>
+          <div class="buttons_div">
+            <button type="button" class="btn btn-dark" id="predict_button">Predict</button>
+            <button type="button" class="btn btn-dark" id="clear_button">&nbsp Clear &nbsp</button>
+          </div>
+        </div>
+        <div class="predicted_answer col-sm-6">
+          <h2 id="prediction_heading">Prediction</h2>
+          <h1 id="result">-</h1>
+          <p id="confidence">Confidence: -</p>
+        </div>
+      </div>
+    </div>
+  </section>  
+  <script src="js/main.js" charset="utf-8"></script>
+</body>
+</html>
